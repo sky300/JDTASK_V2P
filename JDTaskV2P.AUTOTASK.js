@@ -289,7 +289,7 @@ async function getKeyList() {
 async function getCronList() {
   return new Promise((resolve) => {
     const options = {
-      // url: `https://ghproxy.com/https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker/main/qx.json`
+      
        url: `https://raw.githubusercontent.com/CenBoMin/JDTASK_V2P/main/JDTaskV2P.autosync.json`
     };
     $.get(options, async (err, resp, data) => {
