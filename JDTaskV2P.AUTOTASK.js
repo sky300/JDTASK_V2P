@@ -273,7 +273,7 @@ async function getKeyList() {
           $.logErr(err);
         } else {
           if (safeGet(data)) {
-            // $.log(data)
+            // $.log(data) 
             getKeyListdata = JSON.parse(data);
             //下载的data是一个cookie数组
           }
